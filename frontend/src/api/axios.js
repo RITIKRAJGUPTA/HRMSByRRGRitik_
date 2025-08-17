@@ -4,7 +4,7 @@ import { getToken } from "../utils/token";
 
 // ✅ Create API instance
 const api = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://hrmsbyrrgritik.onrender.com/api",
 });
 
 // ✅ Always attach token if exists (no expiry check)
